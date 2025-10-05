@@ -13,6 +13,6 @@ class TrapecioModelo: ContratoTrapecio.modelo {
     }
 
     override fun validacion(baseMayor: Float, baseMenor: Float): Boolean{
-        return if(baseMenor>baseMayor) false else true
+        return if(baseMayor>baseMenor && baseMenor > 0 && baseMayor > 0) true else false
     }
 }
