@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Calculadora de Figuras 7w7"
+            android:textSize="30dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/btnTriangulo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Triangulo"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#94FB00FF"
+                />
+            <Button
+                android:id="@+id/btnRectangulo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Rectangulo"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#FF0000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/btnPentagono"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Trapecio"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#C34C5BAF"
+                />
+            <Button
+                android:id="@+id/btnCirculo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Circulo"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#0B0202"/>
+        </LinearLayout>
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creador: Angel Sanjay MC OwO"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
