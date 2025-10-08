@@ -50,7 +50,7 @@ class MainActivityTriangulo : AppCompatActivity(), ContratoTriangulo.Vista {
         }
 
         btnRegresar.setOnClickListener {
-            val intent: Intent = Intent(this, MainActivity::class.java)
+            val intent: Intent = Intent(this, MainActivityMenu::class.java)
             startActivity(intent)
         }
 

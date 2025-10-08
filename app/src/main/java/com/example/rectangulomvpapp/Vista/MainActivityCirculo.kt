@@ -48,7 +48,7 @@ class MainActivityCirculo : AppCompatActivity(), ContratoCirculo.vista {
         }
 
         btnRegresar.setOnClickListener {
-            val intent: Intent = Intent(this, MainActivity::class.java)
+            val intent: Intent = Intent(this, MainActivityMenu::class.java)
             startActivity(intent)
         }
 
